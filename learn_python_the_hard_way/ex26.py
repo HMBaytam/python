@@ -1,3 +1,9 @@
+'''
+Original code found here https://learnpythonthehardway.org/python3/exercise26.txt
+
+Bellow is the debugged code
+'''
+
 from sys import argv
 
 print("How old are you?", end=' ')
