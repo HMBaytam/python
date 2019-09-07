@@ -81,7 +81,7 @@ def start():
     else:
         dead('You stumble around the room until you starve.')
 
-# This code block is an new feature I wrote that is not in the book
+# The code block below is an new feature I wrote that is not in the book
 
 
 def final():
