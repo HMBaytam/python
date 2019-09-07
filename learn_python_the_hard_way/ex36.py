@@ -59,13 +59,28 @@ def main_hall():
         if 'left' in choice:
             gold_room()
         elif 'right' in choice:
-            pass
+            cthulhu_room()
         elif 'back' in choice:
             back_out()
         else:
             print('\n')
             print('This is no time to act stupid, just make up your mind')
             print('\n')
+
+
+def cthulhu_room():
+    print('Here you see the great evil Cthulhu.')
+    print('He, it, whatever stares at you and you go insane.')
+    print('Do you flee for your life or eat your head?')
+
+    choice = input('>')
+
+    if 'flee' in choice:
+        start()
+    elif 'head' in choice:
+        dead('Well that was tasty!')
+    else:
+        cthulhu_room()
 
 
 def gold_room():
