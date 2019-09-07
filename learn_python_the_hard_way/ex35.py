@@ -9,8 +9,8 @@ def gold_room():
     try:
         how_much = int(choice)
         if how_much < 50:
-            print('Nice, you\'re not greedy, you win')
-            exit(0)
+            print('Nice, you\'re not greedy!\n')
+            final()
         else:
             dead('You greedy bastard!')
     except ValueError:
@@ -80,6 +80,24 @@ def start():
         cthulhu_room()
     else:
         dead('You stumble around the room until you starve.')
+
+# This code block is an new feature I wrote that is not in the book
+
+
+def final():
+    print('You pick up your loot and look up to find three doors')
+    print('A door up in front of you, a door to your right, and a door to your left')
+    print('Which one do you choose?')
+
+    choice = input('>')
+
+    if 'left' in choice:
+        cthulhu_room()
+    elif 'right' in choice:
+        dead('You open the door and trip on a wire\n the door slams shut and the walls start closing in with no exit in sight\n')
+    else:
+        print('Awesome! You are now outside the building with your loot!\nYou have won the game!')
+        exit(0)
 
 
 start()
