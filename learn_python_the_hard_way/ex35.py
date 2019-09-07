@@ -5,16 +5,22 @@ def gold_room():
     print('This room is full of gold. How much do you take?')
 
     choice = input('>')
-    if '0' in choice or '1' in choice:
+    # the code below is a fix to the bug found in the code at the bottom of this block
+    try:
         how_much = int(choice)
-    else:
+        if how_much < 50:
+            print('Nice, you\'re not greedy, you win')
+            exit(0)
+        else:
+            dead('You greedy bastard!')
+    except ValueError:
         dead('Man, learn to type a number')
 
-    if how_much < 50:
-        print('Nice, you\'re not greedy, you win')
-        exit(0)
-    else:
-        dead('You greedy bastard!')
+    # the code below has a bug that needed a fix
+    # if '0' in choice or '1' in choice:
+    #     how_much = int(choice)
+    # else:
+    #     dead('Man, learn to type a number')
 
 
 def bear_room():
