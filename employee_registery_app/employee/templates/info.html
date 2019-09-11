@@ -1,0 +1,16 @@
+{% extends 'layout.html' %} 
+{% block content %} {% if info %}
+<p>Employee id: {{ info.id }}</p>
+<p>First name : {{ info.first }}</p>
+<p>Last name : {{ info.last }}</p>
+<p>Email : {{ info.email }}</p>
+<p>Salary : ${{ info.pay }}</p>
+<form action="/employee_list/{{ info.first }}/raise" method="post">
+  <input type="submit" value="Give Raise" />
+</form>
+{% else %}
+<p>{{ message }}</p>
+{% endif %}
+<a href="/employee_list">Go Back</a>
+<a href="/">Main Page</a>
+{% endblock %}
