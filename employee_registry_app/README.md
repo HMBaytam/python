@@ -26,15 +26,37 @@ in the employee_list page, the user can click on any employee name to check thei
 
 in the employee info page, the user can apply the raise to the selected employee
 
+### pipenv
+
+Now I wanted to tackle this project in the right way so I created everything in a virtual environment using pipenv. I added all the project requirements to the pipfile so all anyone who wants to test this project our is
+
+- instal pipenv
+
+```
+sudo pip install pipenv
+```
+
+- navigate to local project repo
+
+```
+cd ~/employee_registry_app
+```
+
+- and install project dependencies
+
+```
+pipenv install
+```
+
 ## Next steps
 
 Now as I mentioned this is a very simplistic bare bones app with a lot (and I can't stress **a lot** enough) of improvements needed
 
 ### ideas for improvements
 
-[ ] create a function that checks if the employee being added has been added before or not
-[ ] create a search feature in the employee_list page that helps the user filter through a long list of employees
-[ ] scratch the object oriented feature and replace is with SQLight so that the employee list is saved even after a server has been restarted
-[ ] add some pixy dust to make this visually appealing
+- [ ] create a function that checks if the employee being added has been added before or not
+- [ ] create a search feature in the employee_list page that helps the user filter through a long list of employees
+- [ ] scratch the object oriented feature and replace is with SQLight so that the employee list is saved even after a server has been restarted
+- [ ] add some pixy dust to make this visually appealing
 
 Thank you for checking this project out, and please take it easy on me. As of Sept. 11 2019, it would be only a week since I picked up python
