@@ -6,3 +6,4 @@ sandbox
 .vscode
 bin
 docs
+employee_registry_app/employee/__pycache__
