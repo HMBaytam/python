@@ -1,8 +1,8 @@
 {% extends 'layout.html' %} 
 {% block content %} {% if info %}
 <p>Employee id: {{ info.id }}</p>
-<p>First name : {{ info.first }}</p>
-<p>Last name : {{ info.last }}</p>
+<p>First name : {{ info.first.capitalize() }}</p>
+<p>Last name : {{ info.last.capitalize() }}</p>
 <p>Email : {{ info.email }}</p>
 <p>Salary : ${{ info.pay }}</p>
 <form action="/employee_list/{{ info.first }}/raise" method="post">
