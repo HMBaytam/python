@@ -54,7 +54,7 @@ Now as I mentioned this is a very simplistic bare bones app with a lot (and I ca
 
 ### ideas for improvements
 
-- [ ] create a function that checks if the employee being added has been added before or not
+- [x] create a function that checks if the employee being added has been added before or not
 - [ ] create a search feature in the employee_list page that helps the user filter through a long list of employees
 - [ ] scratch the object oriented feature and replace is with SQLight so that the employee list is saved even after a server has been restarted
 - [ ] add some pixy dust to make this visually appealing
