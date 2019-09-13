@@ -10,7 +10,7 @@ I have come up with a few goals I want to achieve by the end of this exercise. T
 
 ## Goals
 
-- [ ] Get a greater understanding of _Python_ basics
+- [x] Get a greater understanding of _Python_ basics
 - [ ] Learn **Object Oriented Programming** in _Python_
 - [ ] Learn _Django_
 - [ ] Learn how to use databases (i.e postgreSQL) in a python application
