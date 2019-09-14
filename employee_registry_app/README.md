@@ -30,7 +30,7 @@ in the employee info page, the user can apply the raise to the selected employee
 
 Now I wanted to tackle this project in the right way so I created everything in a virtual environment using pipenv. I added all the project requirements to the pipfile so all anyone who wants to test this project our is
 
-- instal pipenv
+- install pipenv
 
 ```
 sudo pip install pipenv
