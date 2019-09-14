@@ -52,5 +52,3 @@ I have come up with a few goals I want to achieve by the end of this exercise. T
 - [ ] [How to Start Your Own Machine Learning Projects](https://towardsdatascience.com/how-to-start-your-own-machine-learning-projects-4872a41e4e9c 'How to Start Your Own Machine Learning Projects')
 - [ ] [Grokking Deep Learning](https://www.amazon.com/gp/product/1617293709/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1617293709&linkCode=as2&tag=mrdbourke-20&linkId=0e4ca39b69f943c5f225e9d81e7259d4 'Grokking Deep Learning')
 - [ ] [These books will help you learn machine learning](https://www.youtube.com/watch?v=7R08MPXxiFQ 'These books will help you learn machine learning')
-
-By the end of all this I want to be comfortable enough with Python so that I can go to step 2 of my **_MASTER PLAN_**
