@@ -1,10 +1,15 @@
-{% extends 'layout.html' %} {% block content %}
+<!-- Call the HTML5 boilerplate -->
+{% extends 'layout.html' %}
+<!-- Elements to be added -->
+{% block content %}
 <ul>
+  <!-- goes through the employees list and prints them on page -->
   {% for name in names%}
   <li>
     <a href="/employee_list/{{ name.first }}">{{ name.fullname() }}</a>
   </li>
   {% endfor %}
 </ul>
+<!-- button to go back to home page -->
 <a href="/">Main Page</a>
 {% endblock %}

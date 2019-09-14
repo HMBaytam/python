@@ -1,5 +1,9 @@
-{% extends 'layout.html' %} 
-{% block content %} {% if info %}
+<!-- Call the HTML5 boilerplate -->
+{% extends 'layout.html' %}
+<!-- Elements to be added -->
+{% block content %}
+<!-- searches for requested employee to return the employee info -->
+{% if info %}
 <p>Employee id: {{ info.id }}</p>
 <p>First name : {{ info.first.capitalize() }}</p>
 <p>Last name : {{ info.last.capitalize() }}</p>
